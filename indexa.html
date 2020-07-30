@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<body>
+	<form method="GET" action="http://www.jz.jec.ac.jp/web2020/api.php">
+		太陽の大きさ<input type='range' name="sun_size" value="50" max="100" min="20"><br>
+		<!-- type='range' thì sẽ là thanh kéo, type="text" là nhập số -->
+		屋根の色<input type="color" name="roof_color" value="#cc4444"><br>
+		<!--type='text'  nhập bằng cơ số 16-->
+		<button type="submit">送信</button>
+	</form>
+
+	<hr>
+	<form method="GET" action="http://www.jz.jec.ac.jp/web2020/chat/public/">
+		名前：<input type="text" name="name" value="NGUYEN"><br>
+		メッセージ：<textarea name="messenge"></textarea><br>
+		<button type="submit">送信</button>
+	</form>
+
+</body>
+</html>
